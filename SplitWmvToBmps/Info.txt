@@ -1,0 +1,50 @@
+﻿Documentation
+=============
+
+License: MS PL
+
+==================================================================================================
+swb - split avi, wmv to other formats
+==================================================================================================
+Purpose: Often task for image processing is to split video file (AVI, WMV) you got by photocamera or web-camera to set of images of certain format and then perform some processing
+This console tool does the that.
+
+Usage:
+	To get usage execute program in console
+
+==================================================================================================
+bgs - bitmaps to gray scale
+==================================================================================================
+Purpose: When we took several pictures by photocamera and want to simulate processing it real time systems you need to convert it to gray scale format
+
+Usage:
+	Convert all *.bmp files to grayscale
+	bgs "d:\image recognition source data\Fingers" "d:\image recognition source data\Fingers_gray_scale"
+==================================================================================================
+
+Requirements:
+.Net 4
+
+Compilation Requirements:
+- Visual Studio 2010
+
+Deployment Requirements:
+- ZipSolution 5.5
+
+Support and future versions:
+http://splitwmvtobmps.codeplex.com/
+
+E-mail:
+Cuchuk.Sergey@gmail.com
+
+Version History
+===============
+v3.
+- fixed resources leak in bitmap processing in swb
++ initial version of bmp to gray scale
+
+v2.
+* Moved to 4th framework, zipsolution 5.5
+* Exe renamed to swb
+- Fixed numbers in output for images 
++ gray scale export
